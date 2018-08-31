@@ -5,13 +5,13 @@ android {
     buildToolsVersion "27.0.3"
 
     defaultConfig {
-        applicationId "com.ispring.gameplane"
+        applicationId "com.ego.plane"
         minSdkVersion 17
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
         manifestPlaceholders = [
-                jpush_appkey : 'd6cb869a4edba57c2cdc5140'
+                jpush_appkey : '82a8bfd2b12f37374d6d5a72'
         ]
     }
 
