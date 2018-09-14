@@ -27,6 +27,12 @@
         android:text="开始游戏"
         />
 
+    <FrameLayout
+        android:id="@+id/layout_ad"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"/>
+
     <!--<Button-->
     <!--android:id="@+id/btnGame"-->
     <!--android:layout_width="match_parent"-->

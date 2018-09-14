@@ -5,13 +5,13 @@ android {
     buildToolsVersion "27.0.3"
 
     defaultConfig {
-        applicationId "com.ego.plane"
+        applicationId "com.ego.plane.mi"
         minSdkVersion 17
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
         manifestPlaceholders = [
-                jpush_appkey : '82a8bfd2b12f37374d6d5a72'
+                jpush_appkey : '0705a73453e8336cb3cf9013'
         ]
     }
 
@@ -34,6 +34,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support:design:27.1.1'
-    //implementation (name:'shadow4-v1.1.2',ext:'aar')
+    implementation (name:'mi-v1.4',ext:'aar')
     implementation project(':shadow4')
 }

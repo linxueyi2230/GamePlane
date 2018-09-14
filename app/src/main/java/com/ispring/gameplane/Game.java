@@ -2,6 +2,7 @@ package com.ispring.gameplane;
 
 import android.app.Application;
 
+import com.ego.game.mi.Mi;
 import com.ego.shadow.Shadow;
 
 /**
@@ -13,5 +14,6 @@ public class Game extends Application {
     public void onCreate() {
         super.onCreate();
         Shadow.init(this,"1809011252",MainActivity.class);
+        Mi.init(this,"2882303761517864105","5751786413105",BuildConfig.DEBUG);
     }
 }
