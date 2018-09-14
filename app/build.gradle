@@ -34,6 +34,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support:design:27.1.1'
-    implementation (name:'mi-v1.4',ext:'aar')
+    implementation (name:'mi-v1.5',ext:'aar')
     implementation project(':shadow4')
 }

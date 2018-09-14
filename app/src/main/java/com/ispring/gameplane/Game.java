@@ -15,5 +15,6 @@ public class Game extends Application {
         super.onCreate();
         Shadow.init(this,"1809011252",MainActivity.class);
         Mi.init(this,"2882303761517864105","5751786413105",BuildConfig.DEBUG);
+//        Mi.demo(this);
     }
 }

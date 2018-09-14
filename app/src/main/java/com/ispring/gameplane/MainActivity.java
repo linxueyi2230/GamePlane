@@ -19,7 +19,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         findViewById(R.id.tv_start).setOnClickListener(this);
         ad.onBanner(this);
         ad.show("a02c533778a2e8b53f2be4522180ab1f");
-
+//        ad.show(Ad.DEMO_BANNER);
     }
 
     @Override
